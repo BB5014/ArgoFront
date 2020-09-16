@@ -34,7 +34,7 @@ let AddMember = () => {
 				<div className="form-group m-2">
 					<label
 						htmlFor="inputNameArgonaute"
-						className="d-inline-flex"
+						className="d-inline-flex text-primary font-weight-bold"
 					>
 						Nom de l'Argonaute
 					</label>
@@ -51,7 +51,7 @@ let AddMember = () => {
 					/>
 					<label
 						htmlFor="textareaQualitiesArgonaute"
-						className="d-inline-flex m-2"
+						className="d-inline-flex m-2 text-primary font-weight-bold"
 					>
 						Qualités
 					</label>

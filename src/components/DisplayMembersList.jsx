@@ -8,7 +8,9 @@ let DisplayMembersList = ({ membersList }) => {
 
 	return (
 		<div className="displayMembersList">
-			<h3 className="m-4 p-3 font-italic text-success">Liste de l'équipage</h3>
+			<h3 className="m-4 p-3 font-italic font-bold text-danger">
+				Liste de l'équipage
+			</h3>
 			<div className=" container-fluid row">
 				{membersList.map((memberList) => {
 					return (
